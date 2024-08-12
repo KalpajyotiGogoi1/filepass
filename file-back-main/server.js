@@ -4,9 +4,9 @@ require('dotenv').config();
 
 const DB = "mongodb+srv://gogoikalpa000:o2p2nhsPHKq3NwPS@cluster0.whov5kn.mongodb.net/"
 
-const accountName = process.env.AZURE_STORAGE_ACCOUNT_NAME;
-const accountKey = process.env.AZURE_STORAGE_ACCOUNT_KEY; 
-const containerName = process.env.AZURE_STORAGE_CONTAINER_NAME;
+const accountName = "filepass";
+const accountKey = "nY5zmG3niwLyZAHe9P8pxi+JjDwmfRQ+Ow+uQgD7la/sYGAjRtVhRdY8OmZ6VOagxX84rw3pGMJ0+AStJBu64A=="; 
+const containerName = "filepass";
 
 console.log("From .env: ",process.env.AZURE_STORAGE_CONTAINER_NAME);
 
