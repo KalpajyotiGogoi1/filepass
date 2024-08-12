@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Ballo+Tamma+2&display=swap');
+
+/* Then, you can apply the font to any element in your CSS */
+body {
+  font-family: 'Baloo Tamma 2', system-ui;
+}

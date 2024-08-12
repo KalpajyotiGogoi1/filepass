@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e03b6341-f7be-4248-9d42-cd7b4c694ee8/resourceGroups/filepassAppServices_group/providers/Microsoft.Web/sites/filepassAppServices",
+    "appService.deploySubpath": "file-back-main"
+}

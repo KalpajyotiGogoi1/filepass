@@ -1,0 +1,5 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/fc0deccf-ee94-4bb0-a6d1-e78d546ece31/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/filePass",
+  "appService.deploySubpath": ".",
+  "appService.zipIgnorePattern": ["node_modules{,/**}", ".vscode{,/**}"]
+}
