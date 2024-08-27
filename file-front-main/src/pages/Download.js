@@ -5,7 +5,7 @@ function Download() {
   const [code, setCode] = useState("");
   const [success, setSuccess] = useState(false);
 
-  const downUrl = `filepassappservices-fpfshzg9hphkbzdg.centralindia-01.azurewebsites.net/download_file/${code}`;
+  const downUrl = `http://localhost:8080/download_file/${code}`;
 
   const handleDownload = async (e) => {
     e.preventDefault();

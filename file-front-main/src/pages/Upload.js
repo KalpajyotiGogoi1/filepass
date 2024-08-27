@@ -43,16 +43,13 @@ function Upload() {
     formData.append("files", selectedFile);
 
     try {
-      const response = await fetch(
-        "filepassappservices-fpfshzg9hphkbzdg.centralindia-01.azurewebsites.net/upload_files",
-        {
-          method: "POST",
-          headers: {
-            Accept: "application/json",
-          },
-          body: formData,
-        }
-      );
+      const response = await fetch("http://localhost:8080/upload_files", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+        },
+        body: formData,
+      });
 
       setResponse(response);
 
